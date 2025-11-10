@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Weather Dashboard</h1>
+
+      <div class="search-container">
+        <input type="text" id="cityInput" placeholder="Search city..." />
+        <span class="search-icon"></span>
+      </div>
+
+      <div class="user-actions">
+        <label class="switch">
+          <input type="checkbox" id="theme-toggle" />
+          <span class="slider"></span>
+        </label>
+        <div class="user-avatar"></div>
+      </div>
+    </header>
+
+    <main class="dashboard-container">
+      <div class="weather-forecast-row">
+        <div class="current-weather" id="currentWeather">
+          <p>Loading data for Coimbra...</p>
+        </div>
+
+        <div class="forecast-chart-container">
+          <div class="forecast" id="forecast"></div>
+          <div class="chart-container">
+            <canvas id="rainChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-row">
+        <div class="map-column">
+          <h2 class="map-title">Global Map</h2>
+          <div id="map"></div>
+        </div>
+        <div class="sample-cities-column">
+          <h2 class="other-cities-title">Other Large Cities</h2>
+          <div class="sample-cities" id="sampleCities"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2025 Weather Dashboard</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
