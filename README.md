@@ -18,8 +18,6 @@ O utilizador pode pesquisar qualquer cidade e visualizar informações detalhada
 
 **Links**
 
-- Repositório GitHub: (https://github.com/JoseGomes6/Weather-Dashboard)  
-- Website: (https://josegomes6.github.io/Weather-Dashboard/)
-
- **Video**
-Adiciona o ficheiro `.mp4` diretamente neste repositório (por exemplo, na raiz do projeto) e coloca aqui o link para o ficheiro:  
+- Repositório GitHub: https://github.com/JoseGomes6/Weather-Dashboard
+- Website: https://josegomes6.github.io/Weather-Dashboard/
+- Demonstrating video: https://github.com/JoseGomes6/Weather-Dashboard/blob/main/SEEME.mp4
